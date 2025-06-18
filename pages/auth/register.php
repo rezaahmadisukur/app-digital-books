@@ -1,10 +1,10 @@
 <?php
-include '../service.php';
+include '../../config/service.php';
 
 
 
 if (isset($_SESSION['username'])) {
-    header('Location: ' . base_url());
+    header('Location: ' . $BASE_URL);
 }
 
 $fullname = $_POST['fullname'] ?? null;
@@ -17,7 +17,7 @@ if (isset($_POST['register'])) {
         echo "<script>
                 alert('Akun sukses terdaftar');
             </script>";
-        header('Location: ' . base_url('pages/auth/login.php'));
+        header('Location: ' . $BASE_URL . '/pages/auth/login.php');
     } else {
         echo mysqli_error($conn);
     }
@@ -31,8 +31,8 @@ if (isset($_POST['register'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
-    <link rel="stylesheet" href="<?= base_url('css/style.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('css/auth.css'); ?>">
+    <link rel="stylesheet" href="<?= $BASE_URL . '/css/style.css' ?>">
+    <link rel="stylesheet" href="<?= $BASE_URL . '/css/auth.css' ?>">
     <title>Digital Books | Register</title>
 </head>
 
@@ -102,7 +102,7 @@ if (isset($_POST['register'])) {
                     <button type="submit" name="register" class="btn btn-register">Register</button>
                 </div>
                 <div class="footer">
-                    <p>if you account you can login <a href="<?= base_url('pages/auth/login.php') ?>">here</a></p>
+                    <p>if you account you can login <a href="<?= $BASE_URL . '/pages/auth/login.php' ?>">here</a></p>
                 </div>
             </form>
         </div>

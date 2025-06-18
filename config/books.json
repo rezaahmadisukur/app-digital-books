@@ -1,0 +1,39 @@
+{
+    "Books": [
+        {
+            "id": 1,
+            "judul": "Slide Laravel untuk Pemula",
+            "kategori": "Pelajaran",
+            "file": "/assets/pdf/md1.pdf",
+            "cover": "/assets/images/cover/cover-1.jpg"
+        },
+        {
+            "id": 2,
+            "judul": "Solo Leveling Original Volume 1 CH-00",
+            "kategori": "Komik",
+            "file": "/assets/pdf/solo-leveling-ch-00.pdf",
+            "cover": "/assets/images/cover/cover-solo-leveling.jpg"
+        },
+        {
+            "id": 3,
+            "judul": "Solo Leveling Original Volume 1 CH-01",
+            "kategori": "Komik",
+            "file": "/assets/pdf/solo-leveling-ch-01.pdf",
+            "cover": "/assets/images/cover/cover-solo-leveling.jpg"
+        },
+        {
+            "id": 4,
+            "judul": "Solo Leveling Original Volume 1 CH-02",
+            "kategori": "Komik",
+            "file": "/assets/pdf/solo-leveling-ch-02.pdf",
+            "cover": "/assets/images/cover/cover-solo-leveling.jpg"
+        },
+        {
+            "id": 5,
+            "judul": "Solo Leveling Original Volume 1 CH-03",
+            "kategori": "Komik",
+            "file": "/assets/pdf/solo-leveling-ch-03.pdf",
+            "cover": "/assets/images/cover/cover-solo-leveling.jpg"
+        }
+    ]
+}

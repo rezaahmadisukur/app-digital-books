@@ -1,8 +1,8 @@
 <?php
-include '../service.php';
+include '../../config/service.php';
 
 if (isset($_SESSION['username'])) {
-    header('Location: ' . base_url());
+    header("Location: $BASE_URL");
 }
 
 $username = $_POST['username'] ?? null;
@@ -10,6 +10,7 @@ $username = $_POST['username'] ?? null;
 if (isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
+
 
     $query = "SELECT * FROM tb_users WHERE username = '$username'";
     $result = mysqli_query($conn, $query);
@@ -20,11 +21,12 @@ if (isset($_POST['login'])) {
             $_SESSION['username'] = $row['username'];
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['fullname'] = $row['fullname'];
-            header('Location: ' . base_url());
+            header("Location: $BASE_URL");
+            exit;
         }
-    } else {
-        $_SESSION['error'] = '<div class="alert alert-failed">Username atau Password salah</div>';
     }
+
+    $_SESSION['error'] = '<div class="alert alert-failed">Username atau Password salah</div>';
 
 
 }
@@ -37,8 +39,8 @@ if (isset($_POST['login'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
-    <link rel="stylesheet" href="<?= base_url('css/style.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('css/auth.css'); ?>">
+    <link rel="stylesheet" href="<?= "$BASE_URL/css/style.css" ?>">
+    <link rel="stylesheet" href="<?= $BASE_URL . '/css/auth.css' ?>">
     <title>Digital Books | Login</title>
 </head>
 
@@ -75,7 +77,7 @@ if (isset($_POST['login'])) {
                 </div>
                 <div class="footer">
                     <p>if you haven't account ! you can register
-                        <a href="<?= base_url('pages/auth/register.php') ?>">here</a>
+                        <a href="<?= $BASE_URL . '/pages/auth/register.php' ?>">here</a>
                     </p>
                 </div>
             </form>
