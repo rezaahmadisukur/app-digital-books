@@ -78,7 +78,7 @@ if (isset($_POST['view'])) {
     <!-- End Card Section -->
 
     <footer>
-        <p>Digital Books | Copyright &copy; 2025</p>
+        <p>Digital Books | Copyright &copy; <?= date('Y') ?></p>
     </footer>
 
     <script src="<?= "$BASE_URL/js/script.js" ?>"></script>
