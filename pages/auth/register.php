@@ -38,7 +38,7 @@ if (isset($_POST['register'])) {
 
 <body>
 
-    <div class="container">
+    <div class="container form-register">
         <div class="form-container">
             <h1>REGISTER</h1>
             <?php if (isset($_SESSION['error'])): ?>

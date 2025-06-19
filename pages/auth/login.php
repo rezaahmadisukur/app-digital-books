@@ -46,7 +46,7 @@ if (isset($_POST['login'])) {
 
 <body>
 
-    <div class="container">
+    <div class="container form-login">
         <div class="form-container">
             <h1>Login</h1>
             <?php if (isset($_SESSION['error'])): ?>
