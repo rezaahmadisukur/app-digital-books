@@ -23,11 +23,12 @@ if (isset($_POST['view'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
     <link rel="stylesheet" href="<?= "$BASE_URL/css/style.css" ?>">
     <title>Digital Books | Homepage</title>
 </head>
 
-<body>
+<body id="body">
 
     <!-- Start Navbar -->
     <nav>
@@ -77,9 +78,17 @@ if (isset($_POST['view'])) {
     </section>
     <!-- End Card Section -->
 
+    <!-- Start Up Arrow -->
+    <a href="#body" class="arrow-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+    <!-- End Up Arrow -->
+
+    <!-- Start Footer -->
     <footer>
         <p>Digital Books | Copyright &copy; <?= date('Y') ?></p>
     </footer>
+    <!-- End Footer -->
 
     <script src="<?= "$BASE_URL/js/script.js" ?>"></script>
 </body>
