@@ -3,37 +3,86 @@
         {
             "id": 1,
             "judul": "Slide Laravel untuk Pemula",
-            "kategori": "Pelajaran",
-            "file": "/assets/pdf/md1.pdf",
-            "cover": "/assets/images/cover/cover-1.jpg"
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-1.pdf",
+            "cover": "/assets/images/cover/cover-laravel-1.jpg"
         },
         {
             "id": 2,
-            "judul": "Solo Leveling Original Volume 1 CH-00",
+            "judul": "Solo Leveling CH-00",
             "kategori": "Komik",
-            "file": "/assets/pdf/solo-leveling-ch-00.pdf",
+            "file": "/assets/pdf/book-2.pdf",
             "cover": "/assets/images/cover/cover-solo-leveling.jpg"
         },
         {
             "id": 3,
-            "judul": "Solo Leveling Original Volume 1 CH-01",
+            "judul": "Solo Leveling CH-01",
             "kategori": "Komik",
-            "file": "/assets/pdf/solo-leveling-ch-01.pdf",
+            "file": "/assets/pdf/book-3.pdf",
             "cover": "/assets/images/cover/cover-solo-leveling.jpg"
         },
         {
             "id": 4,
-            "judul": "Solo Leveling Original Volume 1 CH-02",
+            "judul": "Solo Leveling CH-02",
             "kategori": "Komik",
-            "file": "/assets/pdf/solo-leveling-ch-02.pdf",
+            "file": "/assets/pdf/book-4.pdf.pdf",
             "cover": "/assets/images/cover/cover-solo-leveling.jpg"
         },
         {
             "id": 5,
-            "judul": "Solo Leveling Original Volume 1 CH-03",
+            "judul": "Solo Leveling CH-03",
             "kategori": "Komik",
-            "file": "/assets/pdf/solo-leveling-ch-03.pdf",
+            "file": "/assets/pdf/book-5.pdf",
             "cover": "/assets/images/cover/cover-solo-leveling.jpg"
+        },
+        {
+            "id": 6,
+            "judul": "Pemrograman Web dengan PHP MySQL",
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-6.pdf",
+            "cover": "/assets/images/cover/cover-php-mysql-1.jpeg"
+        },
+        {
+            "id": 7,
+            "judul": "Panduan Praktis Pemrograman PHP untuk Pemula",
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-7.pdf",
+            "cover": "/assets/images/cover/cover-php-mysql-2.jpeg"
+        },
+        {
+            "id": 8,
+            "judul": "Entity Relationship Diagram",
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-8.pdf",
+            "cover": "/assets/images/cover/cover-erd-1.jpeg"
+        },
+        {
+            "id": 9,
+            "judul": "Perahu kertas",
+            "kategori": "Novel",
+            "file": "/assets/pdf/book-9.pdf",
+            "cover": "/assets/images/cover/cover-perahu-kertas.jpeg"
+        },
+        {
+            "id": 10,
+            "judul": "Cantik itu luka",
+            "kategori": "Novel",
+            "file": "/assets/pdf/book-10.pdf",
+            "cover": "/assets/images/cover/cover-cantik-itu-luka.jpeg"
+        },
+        {
+            "id": 11,
+            "judul": "Hujan",
+            "kategori": "Novel",
+            "file": "/assets/pdf/book-11.pdf",
+            "cover": "/assets/images/cover/cover-tereliye-hujan.jpeg"
+        },
+        {
+            "id": 12,
+            "judul": "PHP Tutorial dasar untuk pemula",
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-12.pdf",
+            "cover": "/assets/images/cover/cover-php-tutorial.jpeg"
         }
     ]
 }
