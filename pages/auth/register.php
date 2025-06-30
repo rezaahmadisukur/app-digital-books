@@ -2,7 +2,6 @@
 include '../../config/service.php';
 
 
-
 if (isset($_SESSION['username'])) {
     header('Location: ' . $BASE_URL);
 }

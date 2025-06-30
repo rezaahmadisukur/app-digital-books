@@ -83,6 +83,27 @@
             "kategori": "Technology",
             "file": "/assets/pdf/book-12.pdf",
             "cover": "/assets/images/cover/cover-php-tutorial.jpeg"
+        },
+        {
+            "id": 13,
+            "judul": "Laravel 9 untuk pemula",
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-13.pdf",
+            "cover": "/assets/images/cover/cover-laravel-2.jpeg"
+        },
+        {
+            "id": 14,
+            "judul": "Telkom University Laravel",
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-14.pdf",
+            "cover": "/assets/images/cover/cover-laravel-3.jpeg"
+        },
+        {
+            "id": 15,
+            "judul": "24 Jam Menguasai Laravel",
+            "kategori": "Technology",
+            "file": "/assets/pdf/book-15.pdf",
+            "cover": "/assets/images/cover/cover-laravel-4.jpeg"
         }
     ]
 }
