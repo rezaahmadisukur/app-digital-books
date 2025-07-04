@@ -89,7 +89,7 @@ if (isset($_POST['view'])) {
         <div class="container">
             <h1>🔥 HOT BOOKS 🔥</h1>
             <form action="" class="form__genre">
-                <select name="" id="">
+                <select name="" id="" class="form__genre-select">
                     <option value="">Select Genre</option>
                     <option value="komik">Komik</option>
                     <option value="technology">Technology</option>

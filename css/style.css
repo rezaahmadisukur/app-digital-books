@@ -322,6 +322,7 @@ nav .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
+    margin-top: 5rem;
 }
 
 .card {
@@ -386,8 +387,13 @@ nav .container {
     transform: translateY(0%);
 }
 
+.form__genre-select {
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
 .card__body .card__sinopsis {
-    font-size: 12px;
+    font-size: 10px;
     color: #d1d1d1;
     margin-top: 10px;
 }
