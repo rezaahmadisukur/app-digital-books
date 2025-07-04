@@ -40,7 +40,7 @@ if (isset($_POST['view'])) {
             <div class="dropdown-profile">
                 <div class="profile">
                     <div class="img-cover">
-                        <img src="<?= "$BASE_URL/assets/images/profile.png" ?>" alt="">
+                        <img src="<?= "$BASE_URL/assets/images/profile.png" ?>" alt="photo-profile">
                     </div>
                     <span><?= $_SESSION['fullname'] ?></span>
                     <span><i class="ri-arrow-down-s-line"></i></span>
@@ -88,6 +88,14 @@ if (isset($_POST['view'])) {
     <section id="main">
         <div class="container">
             <h1>🔥 HOT BOOKS 🔥</h1>
+            <form action="" class="form__genre">
+                <select name="" id="">
+                    <option value="">Select Genre</option>
+                    <option value="komik">Komik</option>
+                    <option value="technology">Technology</option>
+                    <option value="nover">Novel</option>
+                </select>
+            </form>
             <div class="card__container">
                 <?php foreach ($objs as $obj): ?>
                     <div class="card">
@@ -98,6 +106,9 @@ if (isset($_POST['view'])) {
                                 <div class="card__body">
                                     <div class="card__title">
                                         <p><?= strtoupper($obj['judul']) ?></p>
+                                        <p class="card__sinopsis">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Dignissimos, obcaecati?
+                                            Vitae tenetur vel consequuntur nihil.</p>
                                     </div>
                                     <form action="" method="post">
                                         <input type="hidden" name="pdf" value="<?= $obj['file'] ?>">
@@ -125,6 +136,7 @@ if (isset($_POST['view'])) {
     </footer>
     <!-- End Footer -->
 
+    <!--Javascript -->
     <script src="<?= "$BASE_URL/js/script.js" ?>"></script>
 </body>
 

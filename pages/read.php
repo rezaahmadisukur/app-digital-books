@@ -9,19 +9,7 @@ if (!isset($_SESSION['pdf'])) {
 $pdf = $_SESSION['pdf'];
 header('content-type: application/pdf');
 readfile($pdf);
-?>
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Books | Read</title>
-</head>
 
-<body>
 
-</body>
-
-</html>
